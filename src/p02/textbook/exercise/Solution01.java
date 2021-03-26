@@ -30,12 +30,38 @@ public class Solution01 {
 		// 변수명: age, price
 		// 리터럴: 10, 3.14
 		
+		// 5번 문제:
+		byte byteValue = 10;
+		char charValue = 'A';
+		
+		
+		// 6번 문제: 4번
+		int intValue = 10;
+//		char charValue6 = "A";
+		double doubleValue = 5.7;
+		String strValue = "A";
+		// 기본타입과 참조타입은 서로 상호변환시킬 수 없다. 
+		
+		double var6 = (double) intValue; // integer는 double로 자동 형 변환 가능하다. 굳이 double을 쓰지 않아도 됨. 
+		
+		
 		// 7번 문제:
 		int var1 = 10;
 		long var2 = 100000000000L;
 //		char var3 = ''; --> 문자가 꼭 들어가야 한다. 빈 문자는 불가
 		double var4 = 10; // integer type을 넣을 수도 있다.
 		float var5 = 10;  // integer type을 넣을 수도 있다.
+		
+		
+		// 8번 문제: 1번
+	byte byteValue8 = 10;
+	float floatValue8 = 2.5F;
+	double doubleValue8 = 2.5;
+	
+//	byte result1 = byteValue8 + byteValue8;
+	int result2 = 5 + byteValue8;
+	float result3 = 5 + floatValue8;
+	double result4 = 5 + doubleValue8;
 		
 	}
 }
