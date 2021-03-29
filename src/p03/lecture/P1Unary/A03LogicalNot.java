@@ -1,6 +1,6 @@
 package p03.lecture.P1Unary;
 
-public class A3LogicalNot {
+public class A03LogicalNot {
 	public static void main(String[] args) {
 		// 논리부정연산자 (logical not)
 		// ! : 피연산자가 boolean 타입

@@ -1,0 +1,11 @@
+package p99.codingbat;
+
+public class WarmUp1Sleepin {
+	public boolean sleepIn(boolean weekday, boolean vacation) {
+		  if (!weekday || vacation) {
+		   return true;
+		  }
+		  return false;
+		}
+
+}
