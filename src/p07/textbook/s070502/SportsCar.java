@@ -1,6 +1,6 @@
 package p07.textbook.s070502;
 
-public class SportsCar {
+public class SportsCar extends Car {
 	@Override
 	public void speedUp() {
 		speed += 10;
