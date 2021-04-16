@@ -17,11 +17,13 @@ public class AnimalExample {
 		System.out.println("---------------");
 
 		// 메소드의 다형성
-		animalSound(new Dog());
-		animalSound(new Cat());
+		AnimalExample animal1 = new AnimalExample();
+		animal1.animalSound(new Dog());
+		animal1.animalSound(new Cat());
 	}
 	
-	public static void animalSound(Animal animal) {
+	public void animalSound(Animal animal) {
+		
 		animal.sound();
 	}
 }
