@@ -34,5 +34,8 @@ public class A07TypeChar {
 		charVar = '\u10E6';
 		System.out.println(charVar);
 		
+		int unicode = charVar;
+		System.out.println(unicode);
+		
 	}
 }

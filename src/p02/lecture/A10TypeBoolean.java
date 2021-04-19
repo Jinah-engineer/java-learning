@@ -15,3 +15,4 @@ public class A10TypeBoolean {
 		
 	}
 }
+w
