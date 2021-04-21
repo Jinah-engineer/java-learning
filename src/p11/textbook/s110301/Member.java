@@ -1,4 +1,4 @@
-package p11.lecture.textbook.s110301;
+package p11.textbook.s110301;
 
 public class Member {
 	public String id;
